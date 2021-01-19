@@ -124,13 +124,7 @@ const char *af_fmt_to_str(int format)
     case AF_FORMAT_S32P:        return "s32p";
     case AF_FORMAT_FLOATP:      return "floatp";
     case AF_FORMAT_DOUBLEP:     return "doublep";
-    case AF_FORMAT_S_AAC:       return "spdif-aac";
-    case AF_FORMAT_S_AC3:       return "spdif-ac3";
-    case AF_FORMAT_S_DTS:       return "spdif-dts";
-    case AF_FORMAT_S_DTSHD:     return "spdif-dtshd";
-    case AF_FORMAT_S_EAC3:      return "spdif-eac3";
     case AF_FORMAT_S_MP3:       return "spdif-mp3";
-    case AF_FORMAT_S_TRUEHD:    return "spdif-truehd";
     }
     return "??";
 }
